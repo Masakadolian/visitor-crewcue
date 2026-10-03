@@ -1,17 +1,143 @@
 {
-  "updated": "2026/10/01 (dummy sample)",
+  "updated": "2026/10/03（台本 v1.4 より）",
+  "updated_en": "2026/10/03 (from script v1.4)",
   "roles": [
     {
-      "name": "サンプル役A",
+      "name": "探偵",
+      "name_en": "Detective",
       "scenes": [
-        { "name": "開催前", "text": "これは動作確認用のダミーです。実際の台本ではありません。" },
-        { "name": "探索中", "image": 0, "text": "図面つきの場面のダミーです。image は images/ の番号に対応します。" }
+        {
+          "name": "開演待ち",
+          "name_en": "Waiting",
+          "text": "<color=#ffb02e>時間は「開演から何分後か」の目安</color>（開演＝幕が開く時刻）\n<color=#ffb02e>★</color>＝必ず　○＝言い方は自由\n\n<color=#ffb02e>開演の20分前〜開演　待機</color>\n<b><color=#ffb02e>★</color></b> 客席に座らない。<b>上の待機区画</b>で待つ\n<b><color=#ffb02e>★</color></b> プレイヤー所在リスト（A〜Dのタグ）で、<b>自分の班のゲストの名前</b>を確認しておく\n\n<color=#ffb02e>開演の瞬間　MC登場</color>\n<b><color=#ffb02e>★</color></b> MCが出てきた瞬間に「わーっ！」と声を上げる（サクラ。姿は見せない）\n初回は待機区画から、通常の声でよい",
+          "text_en": "<color=#ffb02e>Times are rough guides: minutes from curtain</color> (curtain = when the curtain opens)\n<color=#ffb02e>★</color> = must do / say　○ = say it your own way\n\n<color=#ffb02e>20 min before curtain → curtain　Standby</color>\n<b><color=#ffb02e>★</color></b> Don't sit in the audience. Wait in the <b>upper waiting area</b>\n<b><color=#ffb02e>★</color></b> Check <b>your team's guests' names</b> in the player location list (tags A–D)\n\n<color=#ffb02e>The moment the curtain opens　MC enters</color>\n<b><color=#ffb02e>★</color></b> The instant the MC appears, shout \"Whoa!\" (a plant — stay out of sight)\nOn a first run, your normal voice from the waiting area is fine"
+        },
+        {
+          "name": "依頼",
+          "name_en": "The request",
+          "text": "<color=#ffb02e>開演の7〜8分後ごろ　固定セリフ</color>\n<b><color=#ffb02e>★</color></b> パーティクルが消えたら、移動メニューで<b>自分の扉の奥へテレポート</b>\n口上は<b>代表の探偵1人</b>が通しで言う。代表は<b>ハンズフリー</b>。他の3人は扉の前に立つだけ\n\nMCが動揺している途中 → <b><color=#ffb02e>★</color></b> 「ちょっと待った！」\n扉が開く（スタッフ操作）→ 自分の扉の前に立つ\n<b><color=#ffb02e>★</color></b> 「この消失事件、実は前にも起きています」\nMC「というと……？」\n<b><color=#ffb02e>★</color></b> 「でも今回は、私たちだけでは解決できません」\n<b><color=#ffb02e>★</color></b> 「原因は、この劇場に溜まった澱んだ空気。それを晴らせるのは、この世界に慣れすぎた私たちじゃない。今夜来たばかりの、まっさらな目——ビジターの皆さんだけなんです」\n<b><color=#ffb02e>★</color></b> 「メニューを開いてみてください。AからDの、金色の文字が出ていますね。同じ文字の扉の前に集まってください」\n<b><color=#ffb02e>★</color></b> 「——MCさん、いいですか？」",
+          "text_en": "<color=#ffb02e>About 7–8 min after curtain　Fixed lines</color>\n<b><color=#ffb02e>★</color></b> When the particles vanish, <b>teleport behind your own door</b> from the move menu\nOne <b>lead detective</b> delivers the whole speech, in <b>hands-free</b>. The other three just stand in front of their doors\n\nWhile the MC is panicking → <b><color=#ffb02e>★</color></b> \"Wait a moment!\"\nThe doors open (Staff) → stand in front of your door\n<b><color=#ffb02e>★</color></b> \"This disappearance — it has actually happened before.\"\nMC: \"Meaning…?\"\n<b><color=#ffb02e>★</color></b> \"But this time, we can't solve it on our own.\"\n<b><color=#ffb02e>★</color></b> \"The cause is the stale air that has gathered in this theater. And the ones who can clear it aren't us, who have grown too used to this world — it's you, the visitors who only arrived tonight, with fresh eyes.\"\n<b><color=#ffb02e>★</color></b> \"Open your menu. You'll see a golden letter, A to D. Please gather at the door with the same letter.\"\n<b><color=#ffb02e>★</color></b> \"— MC, is that all right?\""
+        },
+        {
+          "name": "班分け・出発",
+          "name_en": "Team split",
+          "text": "<color=#ffb02e>開演の10〜12分後ごろ</color>\n<b><color=#ffb02e>★</color></b> <b>ハンズフリーを切って</b>通常会話に戻す\n<b><color=#ffb02e>★</color></b> 自分の扉の前で待つ。来ない人は「Aの〇〇さん、こちらです」と名前で呼ぶ\n<b><color=#ffb02e>★</color></b> そろったら<b>全員の呼び名を一巡</b>（1人10秒）。最初の接点なので飛ばさない\n<b><color=#ffb02e>★</color></b> 「私の後ろへどうぞ」→ 扉の奥のポータルの前まで進む（スタッフが扉を閉め、グループ限定のポータルを開く）\n<b><color=#ffb02e>★</color></b> ポータルを出す前に「<b>私が入って10秒後に入ってきてください</b>」と伝える\n<b><color=#ffb02e>★</color></b> 「もし私が落ちたら、その場でしばらくお待ちください。他の探偵が来ます」\n<b><color=#ffb02e>★</color></b> <b>探偵が先に入る</b>。ゲストはスタッフが約10秒後に送り出す。その間に写真を出す準備\n○ 待ち時間は景色や動きの重さの話でつなぐ（「軽く動けていますか？」）",
+          "text_en": "<color=#ffb02e>About 10–12 min after curtain</color>\n<b><color=#ffb02e>★</color></b> <b>Turn hands-free off</b> and go back to normal voice\n<b><color=#ffb02e>★</color></b> Wait at your door. If someone hasn't come, call them by name: \"A — [name], over here!\"\n<b><color=#ffb02e>★</color></b> Once everyone is there, go round for <b>everyone's nickname</b> (10 sec each). It's the first contact — don't skip it\n<b><color=#ffb02e>★</color></b> \"Please follow me\" → go to the portal behind the door (Staff close the door and open a group-only portal)\n<b><color=#ffb02e>★</color></b> Before opening the portal, say \"<b>Come in 10 seconds after I go in</b>\"\n<b><color=#ffb02e>★</color></b> \"If I drop out, please wait where you are. Another detective will come.\"\n<b><color=#ffb02e>★</color></b> <b>The detective goes in first.</b> Staff send the guests in about 10 sec later. Use that gap to prepare the photos\n○ Fill the wait with small talk about the view or how smoothly things run (\"Is it running OK for you?\")"
+        },
+        {
+          "name": "探索（到着）",
+          "name_en": "Search: arrival",
+          "text": "<color=#ffb02e>開演の12分後ごろ〜　到着したら</color>\n<b><color=#ffb02e>★</color></b> 全員そろったか確認。そろわなければDiscordのクルー用チャンネルへ\n<b><color=#ffb02e>★</color></b> <b>Show Avatar</b>をお願いする（しないとパーティクルが見えない）\n<b><color=#ffb02e>★</color></b> 「パーティクルが飛び散った場所は、この写真の場所までわかっています」→ 話しながら<b>1人1枚ずつ渡す</b>（写真の枚数・場所は、探索ワールドごとに決める）\n<b><color=#ffb02e>★</color></b> 「場所までは私たち探偵にもわかりませんでした。パーティクルを呼び戻すには、仲良くなるきっかけが必要です。みんなで場所を探して、見つけたら少しお話ししてみてください」\n○「どれが一番近そうですか？」最初の一歩はゲストに決めさせる\n\n<color=#ffb02e>歩き方</color>\n基本はゲストの後ろから。<b>動けずにいたら、探偵が先に動いてよい</b>（特に最初の1か所）\n何人かが走り出したら乗って一緒に行く。階段や段差は「足元に気をつけてください」\n外れた場所では「ここにはパーティクルの気配がないですね」。遠回りにも付き合う",
+          "text_en": "<color=#ffb02e>From about 12 min after curtain　On arrival</color>\n<b><color=#ffb02e>★</color></b> Check everyone arrived. If not, tell the crew channel on Discord\n<b><color=#ffb02e>★</color></b> Ask everyone to turn on <b>Show Avatar</b> (otherwise they can't see the particles)\n<b><color=#ffb02e>★</color></b> \"We know where the particles scattered — as far as these photos.\" → hand out <b>one photo per person</b> as you talk (the number and places depend on the search world)\n<b><color=#ffb02e>★</color></b> \"We only know the places. To call the particles back, we need a reason to get closer. Find the places together, and when you do, chat a little.\"\n○ \"Which one looks closest?\" Let the guests choose the first step\n\n<color=#ffb02e>How to walk</color>\nMostly follow behind the guests. <b>If they're stuck, a detective may move first</b> (especially the first spot)\nIf a few start running, go along. For stairs and steps: \"Watch your step.\"\nAt a wrong spot: \"No sign of particles here.\" Go along with detours too"
+        },
+        {
+          "name": "探索（見つけたら）",
+          "name_en": "Search: found one",
+          "text": "<color=#ffb02e>場所を見つけたら</color>\n<b><color=#ffb02e>★</color></b> 写真を持っていた人に、お題を<b>1つだけ</b>。<b>見つけた人1人に1問</b>\n<b><color=#ffb02e>★</color></b> 一区切りしたら褒める「いいですね……！　それです、それ！」\n<b><color=#ffb02e>★</color></b> その写真を共有画面から消す →「写真が消えました！　パーティクルの一部が見つかったみたいです」\n盛り上がっているところでパーティクルを集める。急に切り替えない\n\n<color=#ffb02e>お題の例（場所の雰囲気に合わせて選ぶ。どれか1つで十分）</color>\n入口・玄関：ここに来たら、最初にどう過ごしたい？\nくつろげる場所：子どもの頃ハマってた遊びは？\n景色のいい場所：この景色を見ながら、何を話したい？\n水辺・自然：季節をひとつ選んで旅行するなら？\nどこでも：印象に残ってる場所は？／疲れた日の気分転換は？\nワールド専用のお題があれば、それを優先する\n\n<color=#ffb02e>やらないこと</color>\n<color=#ff7a6b>「あと2つ」と数える／フレンド申請を急かす／聞かれていない説明をする／パーティクルを自分で拾う</color>",
+          "text_en": "<color=#ffb02e>When a place is found</color>\n<b><color=#ffb02e>★</color></b> Ask the holder of that photo <b>one</b> question. <b>One question per finder</b>\n<b><color=#ffb02e>★</color></b> Praise it when it wraps up: \"Nice…! That's it, exactly!\"\n<b><color=#ffb02e>★</color></b> Remove that photo from the share screen → \"The photo disappeared! Part of the particles has been found.\"\nGather the particles while the conversation is lively. Don't switch abruptly\n\n<color=#ffb02e>Prompt ideas (match the place; one is enough)</color>\nEntrance: When you arrive somewhere like this, how do you want to spend the first hour?\nRelaxing spot: What games did you love as a kid?\nScenic spot: What would you talk about while looking at this view?\nWater / nature: If you could pick one season to travel in, which?\nAnywhere: What place stuck with you? / How do you reset after a tiring day?\nIf the world has its own prompts, use those first\n\n<color=#ffb02e>Don't</color>\n<color=#ff7a6b>Count down (\"two more\") / rush friend requests / explain things nobody asked about / pick up the particles yourself</color>"
+        },
+        {
+          "name": "探索（困ったとき）",
+          "name_en": "Search: if stuck",
+          "text": "<color=#ffb02e>こうなったら → こうする</color>\n誰も答えない → 先に自分が答えてみせる\n1人だけ話している → 「〇〇さんはどうです？」\n「特にないです」→ 深追いせず、別のお題へ\n盛り上がって長引く → 止めない。「続きは歩きながら」で次へ先導\n固まっている人 → 無理に話させない。うなずくだけで参加\nゲストが固まった・落ちた → 待たない。戻るテレポート（準備中）を案内。後半の場所を減らす\n場所が1分以上見つからない → 少しヒント「あっちからパーティクルの<b>気配</b>がしますね」（<b>「匂い」ではなく「気配」</b>）\n途中でゲストが落ちた → Discordで連絡し、残りで続ける\n自分が落ちた → 戻れたらすぐ班へ。戻れなければDiscordで運営に報告\n迷惑行為 → 注意 → 続けばブロック → Discordで運営に報告。<b>進行は止めない</b>",
+          "text_en": "<color=#ffb02e>If this happens → do this</color>\nNobody answers → answer first yourself, as an example\nOnly one person talks → \"What about you, [name]?\"\n\"Nothing really\" → don't press; switch to another prompt\nChat runs long → don't stop it. \"Tell me more as we walk\" and lead on\nSomeone is frozen → don't force them to talk. Nodding counts as taking part\nGuest froze / dropped → don't wait. Point them to the return teleport (coming). Cut the later places\nNo place found after 1 min → a small hint: \"I sense the particles <b>over there</b>\" (say <b>\"sense\", never \"smell\"</b>)\nA guest dropped mid-search → tell the crew on Discord and carry on; let them rejoin\nYou dropped → rejoin your team as soon as you can; if you can't, report to operations on Discord\nTroublemaker → warn → block if it continues → report on Discord. <b>Never stop the show</b>"
+        },
+        {
+          "name": "締め・帰還",
+          "name_en": "Wrap-up & return",
+          "text": "<color=#ffb02e>開演の30分後ごろ　締め</color>\n<b>探索のゴールは、写真を全部見つけることではなく、パーティクルを集めること</b>。回りきれても回りきれなくても成立する\n<b><color=#ffb02e>★</color></b> 場所の写真のうち、<b>最低2か所は必ず行く</b>。時間が押したら、残りは省く\n省いたら →「みんなが盛り上がったからこそ、パーティクルが集まってきました！」\n全部回れたら →「皆さんのおかげでパーティクルを集めることができました」\n余裕があれば班で1枚撮る。撮ったら<b><color=#ffb02e>★</color></b> 「SNSに上げても大丈夫ですか？」と全員に聞く\n<b><color=#ffb02e>★</color></b> 写真の保存方法を案内（左手でメニュー → 右手のビームで写真に触れる → 保存）。時間がなければ撮影は飛ばす\n\n<color=#ffb02e>開演の32分後ごろ　帰還</color>\n<b><color=#ffb02e>★</color></b> Discordで帰還の合図が来たら、見つかっていなくても切り上げる\n<b><color=#ffb02e>★</color></b> <b>劇場のグループポータル</b>を出して班を誘導\n<b><color=#ffb02e>★</color></b> 「皆さんのおかげで、パーティクルを集めることができました。劇場へ届けに行きましょう。このポータルから入ってください」\n<color=#ff7a6b>「劇場から連絡が来ました」とは言わない</color>\n帰りのポータルは10秒待たない。一緒に入ってよい",
+          "text_en": "<color=#ffb02e>About 30 min after curtain　Wrap-up</color>\n<b>The goal isn't to find every place — it's to gather the particles.</b> It works whether you finish the route or not\n<b><color=#ffb02e>★</color></b> Of the photo places, <b>visit at least 2</b>. If you're running late, skip the rest\nIf you skipped → \"Because everyone got so lively, the particles came gathering!\"\nIf you finished → \"Thanks to you all, we gathered the particles.\"\nIf there's time, take one team photo. Then <b><color=#ffb02e>★</color></b> ask everyone \"Is it OK to post this on social media?\"\n<b><color=#ffb02e>★</color></b> Explain how to save the photo (left hand: menu → right-hand beam: touch the photo → save). Skip the photo if short on time\n\n<color=#ffb02e>About 32 min after curtain　Return</color>\n<b><color=#ffb02e>★</color></b> When the return signal arrives on Discord, wrap up even if not everything was found\n<b><color=#ffb02e>★</color></b> Open the <b>theater's group portal</b> and guide the team\n<b><color=#ffb02e>★</color></b> \"Thanks to you all, we gathered the particles. Let's take them back to the theater. Please come in through this portal.\"\n<color=#ff7a6b>Never say \"The theater contacted us\"</color>\nDon't wait 10 sec on the way back. Go in together"
+        },
+        {
+          "name": "劇場・見送り",
+          "name_en": "Theater & farewell",
+          "text": "<color=#ffb02e>開演の35分後ごろ〜　劇場で</color>\n<b><color=#ffb02e>★</color></b> 先に戻ったら、自分の班のそばで雑談\n<b><color=#ffb02e>★</color></b> 全班そろったら誰か1人が「皆さんのおかげでパーティクルが戻ってきました！　MCさん、続きをお願いします！」\n<b><color=#ffb02e>★</color></b> <b>ダンス中は客席に降りて全力で盛り上がる</b>（サクラ）。終わったらリスポーンして班の近くへ\n<b><color=#ffb02e>★</color></b> フレンドの勧めで、申請のやり方がわからない人にだけ手順を教える。押しつけない\n○ 班の最後に、ゲスト同士のフレンドを<b>強く推奨</b>してよい（強制の言い方はしない）\n\n<color=#ffb02e>開演の50分後ごろ〜　見送り・アフター</color>\n<b><color=#ffb02e>★</color></b> 入口で4人並んで手を振る。一言ずつ短く\n○ 続けたければ自分の班にだけ「良ければ、もう少し話しましょうか」。終わりの目安を先に伝える",
+          "text_en": "<color=#ffb02e>From about 35 min after curtain　In the theater</color>\n<b><color=#ffb02e>★</color></b> If you're back first, keep chatting near your team's guests\n<b><color=#ffb02e>★</color></b> When all teams are back, one person says \"Thanks to you all, the particles are back! MC, please go on!\"\n<b><color=#ffb02e>★</color></b> <b>During the dance, go down to the seats and go all out</b> (plants). Respawn afterwards and return near your team\n<b><color=#ffb02e>★</color></b> At the friend-request moment, teach the steps only to those who don't know how. Don't push\n○ At the end, you may <b>strongly encourage</b> guests to friend each other (never phrase it as an obligation)\n\n<color=#ffb02e>From about 50 min after curtain　Farewell & after-party</color>\n<b><color=#ffb02e>★</color></b> Four detectives line up at the entrance and wave. A short word each\n○ If you want to continue, invite only your own team: \"If you like, let's chat a bit more.\" Say when you'll finish"
+        }
       ]
     },
     {
-      "name": "サンプル役B",
+      "name": "MC",
+      "name_en": "MC",
       "scenes": [
-        { "name": "開催前", "text": "ダミーの本文です。" }
+        {
+          "name": "開演",
+          "name_en": "Curtain",
+          "text": "<color=#ffb02e>時間は「開演から何分後か」の目安</color>（開演＝幕が開く時刻）\n<color=#ffb02e>★</color>＝必ず　○＝言い方は自由　芸風は自由に差し替えてよい\n\n<color=#ffb02e>開演の瞬間</color>\nスタッフが暗転 → ブザー → 幕が開く。MC登場\n<b><color=#ffb02e>★</color></b> 「みなさま、お待たせしました」\n○ 周りの人に話しかけるのを歓迎する空気を一言つくる\n<b><color=#ffb02e>★</color></b> <b>事件の予告はしない</b>。注意事項の読み上げもしない",
+          "text_en": "<color=#ffb02e>Times are rough guides: minutes from curtain</color> (curtain = when the curtain opens)\n<color=#ffb02e>★</color> = must do / say　○ = say it your own way　Feel free to swap in your own act\n\n<color=#ffb02e>The moment the curtain opens</color>\nStaff: blackout → buzzer → curtain opens. The MC enters\n<b><color=#ffb02e>★</color></b> \"Ladies and gentlemen, thank you for waiting.\"\n○ Set a welcoming mood, in a line, for talking to the people around them\n<b><color=#ffb02e>★</color></b> <b>Don't hint at the incident.</b> Don't read out the house rules either"
+        },
+        {
+          "name": "掴み",
+          "name_en": "Warm-up",
+          "text": "<color=#ffb02e>開演の30秒〜7分後ごろ　掴み</color>\nいきなり踊らない。まず客をつかむ。時間をたっぷり使ってよい（順番は自由）\n1 ○ 劇場へようこそ、と迎える\n2 ○ 初めての人が多いことに触れて安心させる\n3 <b><color=#ffb02e>★</color></b> <b>「この劇場の光は、人と人が仲良くなると少し明るくなる」と約束する</b>\n4 ○ 隣の人を見てもらうなど、客に一度だけ何かさせる\n5 <b><color=#ffb02e>★</color></b> <b>「3、2、1、ショータイム！」のカウントで締める</b>",
+          "text_en": "<color=#ffb02e>About 30 sec – 7 min after curtain　Warm-up</color>\nDon't dance yet. Win the room first. Take your time (any order)\n1 ○ Welcome them to the theater\n2 ○ Mention many are first-timers, and put them at ease\n3 <b><color=#ffb02e>★</color></b> <b>Promise: \"The light in this theater gets a little brighter when people become friends.\"</b>\n4 ○ Have the audience do one small thing, such as looking at their neighbor\n5 <b><color=#ffb02e>★</color></b> <b>Finish with the countdown \"3, 2, 1, showtime!\"</b>"
+        },
+        {
+          "name": "事件・依頼",
+          "name_en": "Incident & request",
+          "text": "<color=#ffb02e>開演の7分後ごろ　事件</color>\nカウント直後に黒い雷が走り、パーティクルが消える（スタッフ操作）\n<b><color=#ffb02e>★</color></b> 本気で動揺する。<b>「黒い雷」「パーティクルが消えた」の2つは口に出す</b>\n○「この劇場の演出は、パーティクルが付き合ってくれていたから成り立っていた」と言いかける\n<b><color=#ffb02e>★</color></b> 言い終わる前に、探偵の「ちょっと待った！」が割って入る\n\n<color=#ffb02e>開演の8分後ごろ　依頼（探偵の口上を受ける）</color>\n<b><color=#ffb02e>★</color></b> 探偵「この消失事件、実は前にも起きています」→ MC「というと……？」\n<b><color=#ffb02e>★</color></b> 探偵「MCさん、いいですか？」→ MC「わかりました！　皆さん、探偵さんたちについていってください！」\n○「戻ってきたら、今夜のショーを最初から全部お見せします」",
+          "text_en": "<color=#ffb02e>About 7 min after curtain　The incident</color>\nRight after the countdown, black lightning strikes and the particles vanish (Staff operate it)\n<b><color=#ffb02e>★</color></b> Be genuinely shaken. <b>Say both \"black lightning\" and \"the particles are gone\" out loud</b>\n○ Start to say \"This theater's show only worked because the particles went along with it\"\n<b><color=#ffb02e>★</color></b> Before you finish, a detective cuts in: \"Wait a moment!\"\n\n<color=#ffb02e>About 8 min after curtain　The request (take the detective's speech)</color>\n<b><color=#ffb02e>★</color></b> Detective: \"This disappearance has actually happened before.\" → MC: \"Meaning…?\"\n<b><color=#ffb02e>★</color></b> Detective: \"MC, is that all right?\" → MC: \"Understood! Everyone, please follow the detectives!\"\n○ \"When you're back, I'll show you tonight's show from the top.\""
+        },
+        {
+          "name": "探索中・帰還",
+          "name_en": "Search & return",
+          "text": "<color=#ffb02e>開演の12〜35分後ごろ　探索中</color>\n劇場で待機。劇場に残った人がいれば一緒に過ごす\n\n<color=#ffb02e>開演の35分後ごろ　帰還</color>\n班は戻った順に着席するので、そろうまで時間差が出る\n○ 間が空きそうなら小ネタや漫才でつなぐ（長さは決めない）\n<b><color=#ffb02e>★</color></b> 探偵（または録音）「皆さんのおかげでパーティクルが戻ってきました。MCさん、続きをお願いします！」→ MC「了解！　早速始めよう！」",
+          "text_en": "<color=#ffb02e>About 12–35 min after curtain　During the search</color>\nWait in the theater. Spend time with anyone who stayed behind\n\n<color=#ffb02e>About 35 min after curtain　Return</color>\nTeams sit down in the order they return, so there will be gaps until everyone is back\n○ If there's a lull, fill it with small bits or a comedy routine (no set length)\n<b><color=#ffb02e>★</color></b> Detective (or recording): \"Thanks to you all, the particles are back. MC, please go on!\" → MC: \"Got it! Let's start right away!\""
+        },
+        {
+          "name": "ダンス・エンディング",
+          "name_en": "Dance & ending",
+          "text": "<color=#ffb02e>開演の38〜45分後ごろ　パーティクルダンス</color>\n<b><color=#ffb02e>★</color></b> ダンス（客席ではクルーがサクラで盛り上げる）\n\n<color=#ffb02e>開演の45分後ごろ　フレンドの勧め</color>\n<b><color=#ffb02e>★</color></b> 今日一緒に歩いた<b>ゲスト同士</b>でフレンドになることを<b>強く推奨</b>。<b>義務にしない</b>。クルーを勧めない（クルーへの申請は受付で遠慮をお願いしている）\n<color=#ffb02e>開演の47分後ごろ　集合写真</color>\n舞台のほうに集まってもらう。「写りたくない人は端へ」とは言わない。撮ったあと「SNSに上げても大丈夫ですか？」\n<color=#ffb02e>開演の50分後ごろ　入口へ</color>\n入口まで一緒に戻る\n<color=#ffb02e>最後</color>\n締めの挨拶。<color=#ff7a6b>アフターの存在は告知しない</color>",
+          "text_en": "<color=#ffb02e>About 38–45 min after curtain　Particle dance</color>\n<b><color=#ffb02e>★</color></b> The dance (the crew in the audience act as plants and cheer)\n\n<color=#ffb02e>About 45 min after curtain　Friend suggestion</color>\n<b><color=#ffb02e>★</color></b> <b>Strongly encourage guests</b> who walked together to become friends with <b>each other</b>. <b>Never an obligation.</b> Don't recommend the crew (friend requests to the crew are discouraged at reception)\n<color=#ffb02e>About 47 min after curtain　Group photo</color>\nGather them near the stage. Never say \"if you don't want to be in it, stand at the edge\". Afterwards: \"Is it OK to post this on social media?\"\n<color=#ffb02e>About 50 min after curtain　To the entrance</color>\nWalk back to the entrance together\n<color=#ffb02e>Last</color>\nClosing words. <color=#ff7a6b>Don't announce the after-party</color>"
+        },
+        {
+          "name": "困ったとき",
+          "name_en": "If something goes wrong",
+          "text": "<color=#ffb02e>こうなったら → こう言う</color>\n事件の演出で怖がる人 →「演出です。灯りは残してあります。ご安心を」\n「なんでパーティクルが消えたの」→「探偵さんが言っていた通りですよ」。<b>黒い雷の正体は明かさない</b>\n自分（MC）が落ちた → 戻れたらすぐ戻る。戻れなければDiscordで運営に報告。運営が代わりにMC\n迷惑行為 → 注意 → 続けばブロック → Discordで運営に報告。<b>進行は止めない</b>",
+          "text_en": "<color=#ffb02e>If this happens → say this</color>\nSomeone is scared by the incident → \"It's part of the show. The lights are still on. Don't worry.\"\n\"Why did the particles vanish?\" → \"Just as the detectives said.\" <b>Don't reveal what the black lightning is</b>\nYou (MC) dropped → rejoin as soon as you can. If you can't, report to operations on Discord. Operations take over as MC\nTroublemaker → warn → block if it continues → report on Discord. <b>Never stop the show</b>"
+        }
+      ]
+    },
+    {
+      "name": "スタッフ",
+      "name_en": "Staff",
+      "scenes": [
+        {
+          "name": "役割・メニュー",
+          "name_en": "Role & menu",
+          "text": "<color=#ffb02e>時間は「開演から何分後か」の目安</color>（開演＝幕が開く時刻）\n\n<b>操作と個別対応</b>。台本上はほとんど話さない。1人は<b>チケット係</b>として受付に常駐\n燕尾服が迷子の目印になるので、迷子の案内を口で言う必要はない\n探索中の班との連絡は、Discordのクルー用チャンネル\n\n<color=#ffb02e>クルーメニュー（劇場ワールドの中だけ）</color>\nハンズフリー：ワールドにいる全員に声を届ける\n通常会話：ふだんの声\nインカム：クルー同士だけで話す（ダンス中の連絡など）\n移動 → A〜Dテレポート：各扉の奥へ飛ぶ",
+          "text_en": "<color=#ffb02e>Times are rough guides: minutes from curtain</color> (curtain = when the curtain opens)\n\n<b>Operations and one-on-one help.</b> You barely speak in the script. One of you is stationed at reception as the <b>ticket attendant</b>\nYour tailcoat marks you as the person to find when lost, so you don't need to announce it\nContact with teams on the search is on the crew channel on Discord\n\n<color=#ffb02e>Crew menu (only inside the theater world)</color>\nHands-free: your voice reaches everyone in the world\nNormal: your everyday voice\nIntercom: talk to the crew only (e.g. contact during the dance)\nMove → Teleport A–D: jump behind each door"
+        },
+        {
+          "name": "開演まで〜8分後",
+          "name_en": "Before curtain – +8 min",
+          "text": "<color=#ffb02e>事前</color>\n帰還先のグループインスタンスは<b>運営が立てる</b>。スタッフは立てなくてよい\n<color=#ffb02e>開演の20分前〜　受付開始</color>\n☐ チケット係は売り場に立つ。<b>迷っている人にだけ</b>声をかける。もう1人は上の待機区画\n<color=#ffb02e>開演の8分前ごろ　全員が劇場に入った</color>\n☐ 「動きが重い人」に一度だけ声をかける。申し出た人にだけ軽くする設定を案内\n<color=#ffb02e>開演の瞬間</color>\n☐ インスタンスを一時クローズ → ☐ 暗転 → ☐ ブザー → ☐ <b>幕を開ける</b>（MC登場）\n<color=#ffb02e>開演の7分後ごろ　MCのカウント「3、2、1」</color>\n☐ <b>ライトニング（黒い雷）オン</b> → ☐ <b>パーティクルオフ</b>。暖色の光だけ残す\n<color=#ffb02e>開演の8分後ごろ　探偵の「ちょっと待った！」</color>\n☐ 扉の開閉ボタンでA〜Dの扉を開ける",
+          "text_en": "<color=#ffb02e>Beforehand</color>\nOperations create the return group instance. Staff don't need to\n<color=#ffb02e>From 20 min before curtain　Reception opens</color>\n☐ The ticket attendant stands at the booth. Speak <b>only to people who look lost</b>. The other waits in the upper waiting area\n<color=#ffb02e>About 8 min before curtain　Everyone is inside</color>\n☐ Ask once, \"Anyone running slow?\" Show the lighter-settings walkthrough only to those who come forward\n<color=#ffb02e>The moment the curtain opens</color>\n☐ Temporarily close the instance → ☐ blackout → ☐ buzzer → ☐ <b>open the curtain</b> (MC enters)\n<color=#ffb02e>About 7 min after curtain　MC's countdown \"3, 2, 1\"</color>\n☐ <b>Lightning (black lightning) ON</b> → ☐ <b>Particles OFF</b>. Leave only the warm light\n<color=#ffb02e>About 8 min after curtain　The detective's \"Wait a moment!\"</color>\n☐ Open doors A–D with the door button"
+        },
+        {
+          "name": "班分け・送り出し",
+          "name_en": "Team split & send-off",
+          "text": "<color=#ffb02e>開演の10分後ごろ〜　班分け</color>\n☐ 自分の扉に来ない人を、プレイヤー所在リストで探して扉まで連れていく\n☐ 全班が扉の奥に入ったら、扉の開閉ボタンをもう一度押して閉める\n<color=#ffb02e>班ごとに</color>\n探偵が扉の奥のポータル前に立ったら\n☐ その班のロールを「（A〜D）班参加中」＋担当探偵だけに設定\n☐ <b>グループ限定</b>でポータルを開く\n☐ 探偵が入って約<b>10秒後</b>、ゲストに「どうぞ、入ってください」と送り出す",
+          "text_en": "<color=#ffb02e>From about 10 min after curtain　Team split</color>\n☐ Find anyone who didn't come to their door in the player location list and take them there\n☐ Once every team is behind their door, press the door button again to close them\n<color=#ffb02e>For each team</color>\nWhen the detective stands in front of the portal behind the door:\n☐ Set that team's role to \"Team (A–D) in progress\" + their detective only\n☐ Open a <b>group-only</b> portal\n☐ About <b>10 sec</b> after the detective goes in, send the guests off: \"Please, go ahead.\""
+        },
+        {
+          "name": "帰還〜ダンス",
+          "name_en": "Return to dance",
+          "text": "<color=#ffb02e>開演の30分後ごろ</color>\n☐ 開演で締めたインスタンスを、帰還する班が入れる状態に戻す（解除のタイミングは要確認）\n<color=#ffb02e>開演の32分後ごろ</color>\n☐ Discordのクルー用チャンネルで各班に<b>帰還の合図</b>\n<color=#ffb02e>班が戻るごと</color>\n☐ 戻ってきた班を迎え、席へ案内\n<color=#ffb02e>全班そろった　探偵の「続きをお願いします！」</color>\n☐ パーティクル復活演出（照明が戻る）\n<color=#ffb02e>開演の38〜45分後ごろ　ダンス</color>\n☐ 手が空いていれば客席に降りて盛り上げる（サクラ）",
+          "text_en": "<color=#ffb02e>About 30 min after curtain</color>\n☐ Reopen the instance you closed at curtain so returning teams can get in (timing to be confirmed)\n<color=#ffb02e>About 32 min after curtain</color>\n☐ Give each team the <b>return signal</b> on the crew channel on Discord\n<color=#ffb02e>As each team returns</color>\n☐ Welcome them back and guide them to their seats\n<color=#ffb02e>All teams are back — the detective's \"MC, please go on!\"</color>\n☐ Particle restoration effect (the lights come back)\n<color=#ffb02e>About 38–45 min after curtain　Dance</color>\n☐ If you're free, go down to the seats and cheer (plants)"
+        },
+        {
+          "name": "セリフ",
+          "name_en": "Lines",
+          "text": "<color=#ffb02e>この3つだけ</color>\nチケット係（迷っている人に）：\n「そこの掲示、読んでみてください」→ 扉が開いたら「開演まで、中で少し待っててくださいね」\n\n開演の8分前ごろ（劇場で一度だけ）：\n「今、動きが重いなって方いますか？　いたら私のところに来てもらえれば、軽くする設定、一緒にやりますよ」\n<color=#ff7a6b>「アバター容量」「パーティクル」などの言葉は使わない</color>\n\n探索への送り出し：\n「どうぞ、入ってください」",
+          "text_en": "<color=#ffb02e>Only these three</color>\nTicket attendant (to someone who looks lost):\n\"Try reading that notice.\" → when the door opens: \"Please wait inside for a bit until the show starts.\"\n\nAbout 8 min before curtain (once, in the theater):\n\"Anyone feeling laggy right now? Come to me and we'll set something up to make it lighter.\"\n<color=#ff7a6b>Never use terms like \"avatar size\" or \"particles\"</color>\n\nSending a team off on the search:\n\"Please, go ahead.\""
+        },
+        {
+          "name": "困ったとき",
+          "name_en": "If something goes wrong",
+          "text": "<color=#ffb02e>こうなったら → こうする</color>\n探索ワールドに入れない人（Quest・スマホ）→「劇場で一緒に待ちましょう。戻ってきた班と合流できます」。残った人同士が話せるようそばにいる\n途中で落ちた・戻れない → グループインスタンスへの入り方を案内。戻れなければ「今日はここまでにしましょう」でもよい\n探索中にゲストが固まった・落ちた → 待たない。探偵のもとへ戻るテレポート（準備中）を案内\n班に来ないゲスト →「メニューを開くと上に英字が出ます。……Aですね、あちらの扉です」→ 扉まで連れていく\n全員そろわないと探偵からDiscordで連絡 → 迷子のゲストを探して、その班のポータルへ\nクルーが落ちた → Discordで運営に報告。運営が代役に入る\n迷惑行為 → 注意 → 続けばブロック → Discordで運営に報告。<b>進行は止めない</b>",
+          "text_en": "<color=#ffb02e>If this happens → do this</color>\nSomeone can't enter the search world (Quest, mobile) → \"Let's wait together in the theater. You can join up with the teams when they return.\" Stay near so those left behind can talk\nDropped / can't get back → show how to join the group instance. If they can't, \"Let's call it a night\" is fine too\nA guest froze or dropped on the search → don't wait. Point them to the return teleport (coming)\nA guest who didn't come to a team → \"Open the menu and there's a letter at the top. …A — that door over there.\" → take them to the door\nA detective says on Discord that not everyone is there → find the lost guest and take them to that team's portal\nA crew member dropped → report to operations on Discord. Operations send in a stand-in\nTroublemaker → warn → block if it continues → report on Discord. <b>Never stop the show</b>"
+        }
       ]
     }
   ]
