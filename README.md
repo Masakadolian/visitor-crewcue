@@ -13,6 +13,14 @@ GitHub Pages（`*.github.io`）は VRChat の信頼済みドメインなので�
 - JSON: https://masakadolian.github.io/visitor-crewcue/crewcue.json
 - 図面: https://masakadolian.github.io/visitor-crewcue/images/0.png
 
+## ポスター画像（`posters/`）
+ワールドの壁のポスターが読み込む画像。ファイル名が枠に対応する（`L00`〜`L08` = 左の壁の窓、`R00`〜`R08` = 右の壁の窓、`PanelL` `PanelR` = 窓の下のパネル）。
+窓は縦長 1448×2048、パネルは横長 2048×956 を目安にする。長辺 2048 以内、JPEG 推奨。
+**同じファイル名で上書きすれば URL は変わらない**（反映まで最大10分かかる）。いまは枠の名前を描いた仮の画像。
+
+- 例: https://masakadolian.github.io/visitor-crewcue/posters/L00.jpg
+- URL をワールドへ入れる手順は、VisitorAdventure の `docs/design/dropbox-poster-display.md`
+
 ## JSON の形
 
 ```json
